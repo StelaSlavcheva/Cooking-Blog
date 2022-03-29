@@ -1,0 +1,247 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+body {
+    font-family: "Gelasio", serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 25px;
+    background-color: #e6e3de;
+}
+
+.header-left {
+    font-size: 32px;
+    color: #554938;
+    font-weight: bold;
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-center li {
+    padding: 8px;
+}
+
+.header-center li a {
+    font-size: 20px;
+    color: #794336;
+}
+
+.header-center li a:hover {
+    font-weight: bold;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right button {
+    background-color: #554938;
+    color: white;
+    font-size: 18px;
+    padding: 6px 10px;
+    margin-right: 23px;
+}
+
+.header-right button:hover {
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-magnify {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.craving {
+    background-image: url(./Requirements-and-Resources/Media/craving.jpg);
+    background-size: cover;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.craving-title {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.craving input {
+    width: 20%;
+    margin-bottom: 250px;
+    border: none;
+    font-size: 16px;
+    padding: 6px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.general {
+    background: url(./Requirements-and-Resources/Media/background.jpg);
+    background-size: cover;
+}
+
+.middle {
+    padding: 30px 150px;
+}
+
+.party,
+.tutorial {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.party-img-wrapper,
+.tutorial-img-wrapper {
+    width: 60%;
+    height: 100%;
+}
+
+.party-img-wrapper img,
+.tutorial-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.party-content,
+.tutorial-content {
+    width: 40%;
+    height: 100%;
+    background-color: #e6e3de;
+    padding: 7em 1em;
+}
+
+.party-content-title,
+.tutorial-content-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.party-content-text,
+.tutorial-content-text {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.party-content-button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 20px 30px;
+    font-size: 25px;
+    background-color: #554938;
+    color: white;
+    border: unset;
+}
+
+.party-content-button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.toolbox {
+    margin: 0 auto;
+}
+
+.toolbox-title {
+    width: 25%;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 0 auto 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #554938;
+}
+
+.toolbox-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.toolbox-cards-card {
+    width: 18%;
+}
+
+.card-img-wrapper {
+    width: 100%;
+}
+
+.toolbox-cards-card img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.toolbox-cards-card a {
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+    color: #554938;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.toolbox-btn {
+    display: block;
+    margin: 30px auto;
+    background-color: #d94b33;
+    color: white;
+    padding: 10px 78px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0 100px;
+}
+
+.footer-list {
+    display: flex;
+    padding: 30px 0 30px;
+}
+
+.footer-list-item {
+    padding: 0 10px;
+    border-right: 2px solid #554938;
+}
+
+.footer-list-item:last-child {
+    border-right: none;
+}
+
+footer a {
+    color: #554938;
+    font-size: 16px;
+    font-weight: bold;
+}
